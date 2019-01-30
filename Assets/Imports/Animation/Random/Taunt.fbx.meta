@@ -149,6 +149,7 @@ ModelImporter:
     4300002: Beta_Surface
     7400000: mixamo.com
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Beta_Joints
     13700002: Beta_Surface
   externalObjects: {}
@@ -175,7 +176,7 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
@@ -184,11 +185,11 @@ ModelImporter:
       takeName: mixamo.com
       firstFrame: 0
       lastFrame: 83
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
@@ -256,10 +257,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

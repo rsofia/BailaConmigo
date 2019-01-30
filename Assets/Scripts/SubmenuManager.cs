@@ -5,8 +5,11 @@ using UnityEngine;
 public class SubmenuManager : MonoBehaviour
 {
     public static bool isDancing = false;
+    public static string idAnimation;
     public GameObject[] dancingObj;
     public GameObject[] randomObj;
+
+    public BackAction backAction;
 
     private void Start()
     {
@@ -15,5 +18,12 @@ public class SubmenuManager : MonoBehaviour
             dancingObj[i].SetActive(isDancing);
         for (int i = 0; i < randomObj.Length; i++)
             randomObj[i].SetActive(!isDancing);
+    }
+
+    public void GoToSceneWithID(GameObject obj)
+    {
+        idAnimation = obj.name;
+
+        backAction.GoToScene(2);
     }
 }

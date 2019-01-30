@@ -179,6 +179,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 36393427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &36393429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100138, guid: 98ca674d60d5e8a408d66baac9190ef4,
+    type: 3}
+  m_PrefabInstance: {fileID: 36393427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &45422104
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +293,12 @@ PrefabInstance:
 --- !u!4 &57225709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400138, guid: a237d65a57b77924b98a2460bee31264,
+    type: 3}
+  m_PrefabInstance: {fileID: 57225708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &57225710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100138, guid: a237d65a57b77924b98a2460bee31264,
     type: 3}
   m_PrefabInstance: {fileID: 57225708}
   m_PrefabAsset: {fileID: 0}
@@ -521,7 +533,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 161895515}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 57225710}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &161895515
@@ -926,6 +949,12 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: fd5d4e6bf5304bd44ae7c6fb802e1d3e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea1043b6a93bec14aa759e1e0a32a295, type: 3}
+--- !u!1 &195125295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: ea1043b6a93bec14aa759e1e0a32a295,
+    type: 3}
+  m_PrefabInstance: {fileID: 195125294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &288243274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,7 +1236,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 404267480}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1709783638}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &404267482
@@ -1316,7 +1356,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 457736454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 464162453}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &457736454
@@ -1418,6 +1469,12 @@ PrefabInstance:
 --- !u!4 &464162452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 57c41e45c711865458cd746858da4332,
+    type: 3}
+  m_PrefabInstance: {fileID: 464162451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &464162453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 57c41e45c711865458cd746858da4332,
     type: 3}
   m_PrefabInstance: {fileID: 464162451}
   m_PrefabAsset: {fileID: 0}
@@ -1580,7 +1637,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 517678649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1508445120}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &517678651
@@ -1712,9 +1780,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &548472924
 MonoBehaviour:
@@ -1755,8 +1823,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1559498807}
   m_HandleRect: {fileID: 1559498806}
   m_Direction: 0
-  m_Value: 0.8823615
-  m_Size: 0.97919226
+  m_Value: 0.8823583
+  m_Size: 0.97875
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2193,6 +2261,12 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 61d35a24afd6244409936279ddaa0d04, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7cabb2488d6ba419354cefd4dab499, type: 3}
+--- !u!1 &806331458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: dd7cabb2488d6ba419354cefd4dab499,
+    type: 3}
+  m_PrefabInstance: {fileID: 806331457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &822638883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,7 +2380,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 823661248}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1929858078}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &823661248
@@ -2422,7 +2507,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 849543479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 36393429}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &849543479
@@ -2661,7 +2757,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1048007122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 806331458}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1048007122
@@ -2887,7 +2994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2935,7 +3042,7 @@ MonoBehaviour:
   m_HorizontalScrollbar: {fileID: 548472924}
   m_VerticalScrollbar: {fileID: 1661110516}
   m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 2
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
@@ -2997,7 +3104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3045,7 +3152,7 @@ MonoBehaviour:
   m_HorizontalScrollbar: {fileID: 1602983289}
   m_VerticalScrollbar: {fileID: 929964151}
   m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 2
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
@@ -3552,7 +3659,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1319478538}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 195125295}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1319478538
@@ -3668,7 +3786,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1359762775}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1624184831}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1359762775
@@ -3840,6 +3969,7 @@ MonoBehaviour:
   randomObj:
   - {fileID: 167864553}
   - {fileID: 1741253048}
+  backAction: {fileID: 1407982787}
 --- !u!4 &1407982786
 Transform:
   m_ObjectHideFlags: 0
@@ -3931,6 +4061,12 @@ PrefabInstance:
 --- !u!4 &1414357715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: b697672e249351043aed64c332525a59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1414357714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1414357716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: b697672e249351043aed64c332525a59,
     type: 3}
   m_PrefabInstance: {fileID: 1414357714}
   m_PrefabAsset: {fileID: 0}
@@ -4205,6 +4341,12 @@ PrefabInstance:
 --- !u!4 &1508445119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400138, guid: 96df7deeeecf7ba488361f7d93ad1a90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1508445118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1508445120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100138, guid: 96df7deeeecf7ba488361f7d93ad1a90,
     type: 3}
   m_PrefabInstance: {fileID: 1508445118}
   m_PrefabAsset: {fileID: 0}
@@ -4489,9 +4631,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1602983289
 MonoBehaviour:
@@ -4532,8 +4674,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1517153900}
   m_HandleRect: {fileID: 1517153899}
   m_Direction: 0
-  m_Value: 0.8823615
-  m_Size: 0.97919226
+  m_Value: 0.8823583
+  m_Size: 0.97875
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4649,6 +4791,12 @@ PrefabInstance:
 --- !u!4 &1624184830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 5856cccb34dc536449cb87058d9bcf80,
+    type: 3}
+  m_PrefabInstance: {fileID: 1624184829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1624184831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 5856cccb34dc536449cb87058d9bcf80,
     type: 3}
   m_PrefabInstance: {fileID: 1624184829}
   m_PrefabAsset: {fileID: 0}
@@ -4830,7 +4978,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1641807774}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407982785}
+        m_MethodName: GoToSceneWithID
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1414357716}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1641807774
@@ -5134,6 +5293,12 @@ PrefabInstance:
 --- !u!4 &1709783637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 98140981c03fecc4f92b5769105ca9b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1709783636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1709783638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 98140981c03fecc4f92b5769105ca9b3,
     type: 3}
   m_PrefabInstance: {fileID: 1709783636}
   m_PrefabAsset: {fileID: 0}
@@ -5715,6 +5880,12 @@ PrefabInstance:
 --- !u!4 &1929858077 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400138, guid: 89b3e078cbdf5214089c5ac59d8248a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1929858076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1929858078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100138, guid: 89b3e078cbdf5214089c5ac59d8248a3,
     type: 3}
   m_PrefabInstance: {fileID: 1929858076}
   m_PrefabAsset: {fileID: 0}
